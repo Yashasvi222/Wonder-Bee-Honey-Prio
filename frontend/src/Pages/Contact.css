@@ -1,0 +1,105 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-headline-upper{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.contact-headline-lower{
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: -42px;
+}
+
+.contact-headline-lower-anytime{
+    color: #8CB45C;
+}
+
+.contact-upper-divs-container{
+    display: flex;
+    gap: 170px;
+}
+
+.contact-upper-div-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    width: 450px;
+    height: 215px; /*2.087*/
+    background-color:#FEFEFE;
+    box-shadow: 2px 2px 5px rgb(70, 70, 70);
+}
+
+.contact-phone-number-heading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.contact-phone-number{
+    font-size: 28px;
+    margin-top: 4px;
+}
+
+.contact-whatsapp{
+    font-size: 27px;
+    margin-top: -20px;
+}
+
+.contact-email-id-heading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.contact-email-id{
+    font-size: 26px;
+    margin-top: 25px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-upper-div-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    width: 450px;
+    height: 215px; /*2.087*/
+    background-color:#FEFEFE;
+    box-shadow: 2px 2px 5px rgb(70, 70, 70);
+}
+
+.contact-maps-heading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.contact-lower-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    width: 750px;
+    height: 355px; /*2.087*/
+    background-color:#FEFEFE;
+    box-shadow: 2px 2px 5px rgb(70, 70, 70);
+    padding-bottom: 40px;    
+}
+
+iframe{
+    margin-top: -20px;
+    border: 5px solid black;
+}
+
+.contact-socials{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 45px; 
+}
